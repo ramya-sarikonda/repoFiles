@@ -50,7 +50,7 @@ public class HotelTask {
         Select year_Select = new Select(year_Dropdown);
         year_Select.selectByValue("2024");
         WebElement cvv = driver.findElement(By.id("cc_cvv"));
-        //cvv.sendKeys("1345");
+        cvv.sendKeys("1345");
 
         WebElement booknow = driver.findElement(By.id("book_now"));
         booknow.click();
